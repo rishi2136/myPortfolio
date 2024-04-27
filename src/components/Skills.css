@@ -1,0 +1,19 @@
+.skill-sec{
+  height: 60vh;
+}
+
+.skill-btn{
+    height: 70px;
+    width: 445px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+
+}
+
+.skill-box{
+  display: inline-block;
+  width: auto;
+  margin: .5rem 1rem 0;
+  
+}

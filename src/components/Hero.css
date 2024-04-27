@@ -1,0 +1,16 @@
+.hero-sec{
+  color: #fff;
+  background-color: black;
+}
+.info-and-quote{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  text-align: justify;
+}
+
+.photo{
+  width: 30%;
+  height: auto;
+}

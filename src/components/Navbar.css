@@ -1,0 +1,25 @@
+ .my-nav{
+  background-color: #000000db !important;
+  margin: 1rem 2rem;
+  border-radius: 28px;
+  box-sizing: border-box; 
+}
+.nav-list-item{
+  margin: .25rem .75rem;
+  padding: .75rem 0;
+  border-radius: 28px;
+}
+.nav-list-item:hover{
+  background-color: rgba(0, 0, 0, 0.995) !important;
+}
+.nav-option{
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+ 
+}
+.toggler-list{
+  display: flex;
+  justify-content: space-evenly;
+}

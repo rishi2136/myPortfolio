@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Permanent Marker", cursive;
+}
+body a{
+  text-decoration: none !important;
+  color: white;
+}
+
+.game-projects{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.aboutList
+/* .project-image{
+opacity: 1;
+transition: opacity .5s ease-in;
+}
+
+.project-image:hover {
+  opacity: .6;
+  }
+
+.image-cover{
+  background-color: rgba(0, 0, 0, 0.388);
+
+  height: 0%;
+  width: 100%;
+  transition: height 1s ease-in-out;
+}
+
+.image-cover a{
+  display: none;
+  margin: 0 auto;
+}
+
+.image-cover:hover .image-cover a{
+  height: 100%;
+} */
