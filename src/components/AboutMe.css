@@ -1,0 +1,43 @@
+.my-detail {
+  color: greenyellow;
+}
+div:has(.skill-nav) {
+  position: relative;
+}
+.skill-nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+
+  border-radius: 8px;
+}
+.about-link {
+  color: black;
+  font-weight: 400px;
+  transition: font-weight 0.5s;
+}
+.about-link:hover {
+  font-weight: 600;
+  color: black;
+}
+
+.about-link:active {
+  color: black;
+}
+
+/* scrollspy part */
+.nav-box {
+  height: 350px;
+  width: auto;
+}
+
+.skill-scrollbar::-webkit-scrollbar {
+  width: 10px;
+}
+.skill-scrollbar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+.skill-scrollbar::-webkit-scrollbar-thumb {
+  background: white;
+}

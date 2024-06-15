@@ -1,16 +1,80 @@
-.hero-sec{
+#home {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.my-name {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+.my-role {
+  font-size: 1.6rem;
+}
+.hero-sec {
   color: #fff;
   background-color: black;
+  margin: 0;
 }
-.info-and-quote{
+.info-and-quote {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 20px;
+  align-content: center;
+  padding: 20px 40px;
+  margin: 20px 0;
   text-align: justify;
+  border-radius: 16px;
+  width: 50%;
+  background-color: black;
+  color: white;
+  box-shadow: 4px 4px 0 2px white;
+  border: 2px solid white;
+  height: auto;
+  align-self: flex-end;
+}
+.profile-pic-box {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo {
+  height: auto;
+  width: 23rem;
+  margin-bottom: -1rem;
+  margin: auto;
 }
 
-.photo{
-  width: 30%;
-  height: auto;
+@media (max-width: 996px) {
+  #home {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .profile-pic-box,
+  .info-and-quote {
+    width: 100%;
+  }
+}
+
+.contact-links {
+  border-radius: 30px;
+  display: inline-block;
+  padding: 6px 24px;
+  width: 45%;
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: none;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.contact-links a i {
+  color: white;
+  transform: scale(1);
+  transition: transform 0.5s;
+}
+.contact-links a i:hover {
+  transform: scale(0.8);
 }

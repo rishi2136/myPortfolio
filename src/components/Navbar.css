@@ -1,25 +1,23 @@
- .my-nav{
-  background-color: #000000db !important;
-  margin: 1rem 2rem;
-  border-radius: 28px;
-  box-sizing: border-box; 
+.folio-nav {
+  background-color: white;
+  opacity: 0.9;
 }
-.nav-list-item{
-  margin: .25rem .75rem;
-  padding: .75rem 0;
-  border-radius: 28px;
-}
-.nav-list-item:hover{
-  background-color: rgba(0, 0, 0, 0.995) !important;
-}
-.nav-option{
-  font-size: 1.1rem;
+
+.checkpoint {
+  color: black;
+  font-size: 22px;
   font-weight: 700;
-  color: #fff;
-  text-decoration: none;
- 
+  transition: scale 1s;
 }
-.toggler-list{
-  display: flex;
-  justify-content: space-evenly;
+
+@media (max-width: 600px) {
+  .checkpoint {
+    font-size: 18px;
+    flex-wrap: wrap;
+  }
+}
+
+.checkpoint:hover {
+  color: black;
+  scale: 1.2;
 }

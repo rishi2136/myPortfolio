@@ -1,0 +1,76 @@
+.parent {
+  box-sizing: border-box;
+}
+.project-card {
+  padding: 20px;
+}
+.skill-img-box {
+  position: relative;
+  display: inline-block;
+
+  /* margin: 20px; */
+}
+
+.cover {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.516) !important;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  transition: opacity 0.5s;
+  border-radius: 16px;
+}
+.card:hover .cover {
+  opacity: 1;
+}
+.project-card {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-color: black;
+  color: white;
+  box-shadow: 2px 0 0 2px white;
+  border: 2px solid white;
+}
+.project-title {
+  margin: 12px;
+}
+.project-img {
+  width: 100%;
+  height: auto;
+  margin: auto 4px;
+  height: 100%;
+  border-radius: 16px;
+}
+@media (max-width: 992px) {
+  .project-card {
+    flex-wrap: wrap;
+  }
+  .project-img {
+    height: auto;
+  }
+}
+ul:has(.skill-bullet) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+.skill-bullet {
+  background-color: white;
+  border-radius: 20px;
+  padding: 16px 24px;
+  color: black;
+  font-weight: 600;
+  margin: 12px 0;
+  position: relative;
+  left: -12px;
+}
