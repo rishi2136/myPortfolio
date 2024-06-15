@@ -5,13 +5,18 @@ const Footer = () => {
       <a
         href="https://www.linkedin.com/in/rishi-agrahari-0b1965274/"
         className="me-4"
+        target="_blank"
       >
         <i className="fa-brands fa-linkedin "></i>
       </a>
-      <a href="https://github.com/rishi2136" className="me-4">
+      <a href="https://github.com/rishi2136" className="me-4" target="_blank">
         <i className="fa-brands fa-github "></i>
       </a>
-      <a href="https://twitter.com/RishiAg34860821" className="me-4">
+      <a
+        href="https://twitter.com/RishiAg34860821"
+        className="me-4"
+        target="_blank"
+      >
         <i className="fa-brands fa-x-twitter  "></i>
       </a>
     </div>
