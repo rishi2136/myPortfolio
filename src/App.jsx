@@ -8,7 +8,7 @@ import ContectMe from "./components/ContectMe";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import { Navbar } from "./components/Navbar";
-import ProjectList from "./components/ProjectList";
+import Projects from "./components/Projects";
 import SkillList from "./components/SkillList";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
     <div className="outer-container">
       <Navbar />
       <Hero />
-      <ProjectList />
+      <Projects />
       <SkillList />
       <AboutMe />
       <ContectMe />
