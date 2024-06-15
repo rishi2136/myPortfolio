@@ -9,7 +9,7 @@ const AboutMe = () => {
         height: "auto",
       }}
     >
-      <h1 className="text-center fw-bolder d-block my-5 mx-auto">About Me</h1>
+      <h1 className="text-center fw-bolder d-block my-5 mx-auto"> About Me</h1>
       <div
         style={{
           height: "auto",
