@@ -1,6 +1,8 @@
-import spotify from "../assets/image.png";
-import wanderlust from "../assets/wanderlust.png";
-import Project from "./Project";
+import spotify from "../assets/spotify_project.png";
+import wanderlust from "../assets/wanderlust_project.png";
+import zivan from "../assets/zivan_project.png";
+import Project from "../utils/Project";
+import "./ProjectList.css";
 
 const ProjectList = () => {
   let projects = [
@@ -28,21 +30,37 @@ const ProjectList = () => {
       image: spotify,
       repo: "https://github.com/rishi2136/Spotify_folder",
     },
+    {
+      title: "The Car Seller",
+      description: [
+        "This is a quailifying assignment given by the a hiring company on recuiting platform",
+        "Implement the landing page for the car  selling brand",
+        "Implement using react and backend with nodeJs",
+        "Some of the images in the website associated with other institutes or company",
+      ],
+      live: "https://react-frontend-0lht.onrender.com/",
+      image: zivan,
+      repo: "https://github.com/rishi2136/Spotify_folder",
+    },
   ];
 
   return (
     <div id="projects">
-      <h1 className="text-center fw-bolder d-block my-5 mx-auto">Projects</h1>
+      <h1 className="text-center fw-bolder d-block my-5 pt-5 mx-auto pro-heading">
+        Projects
+      </h1>
       <div className="project-box">
-        <Project details={projects[0]} />
+        <Project details={projects[0]} pos={true} />
         <Project details={projects[1]} />
+        <Project details={projects[2]} pos={true} />
+        {/* <Project details={projects[0]} /> */}
       </div>
       <div
-        className=" rounded-5 "
+        className="my-0 pb-1 rounded-5 "
         style={{ width: "100%", textAlign: "center", margin: "30px auto" }}
       >
         <a
-          className="btn btn-primary see-more"
+          className="btn see-more"
           target="_blank"
           href="https://github.com/rishi2136"
         >

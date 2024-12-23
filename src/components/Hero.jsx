@@ -1,4 +1,5 @@
 import profile_pic from "../assets/profile_pic.png";
+import MiniBorad from "../utils/MiniBorad";
 import "./Hero.css";
 
 const Hero = () => {
@@ -11,9 +12,10 @@ const Hero = () => {
             alt="profile-picture"
             className="photo mx-auto"
           />
-          <hr style={{ border: "3px solid black" }} />
+          <MiniBorad />
         </div>
-        <div className="info-and-quote  col-10">
+
+        <div className="info-and-quote col-10">
           <h1 className="my-name">Rishi Agrahari</h1>
           <h2 className="my-role">Full stack web developer | MERN</h2>
           <div

@@ -1,3 +1,5 @@
+import "./Footer.css";
+
 const Footer = () => {
   return (
     <div className=" text-center footer border-top border-light">

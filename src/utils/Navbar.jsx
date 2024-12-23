@@ -19,10 +19,15 @@ export const Navbar = () => {
         </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link checkpoint" href="#about">
-          About
+        <a className="nav-link checkpoint" href="#experience">
+          Experience
         </a>
       </li>
+      {/* <li className="nav-item">
+        <a className="nav-link checkpoint about-link" href="#about">
+          About
+        </a>
+      </li> */}
       <li className="nav-item">
         <a className="nav-link checkpoint" href="#contact">
           Contact

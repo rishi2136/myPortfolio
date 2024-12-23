@@ -1,0 +1,57 @@
+#contact {
+  height: auto;
+  width: 100%;
+  padding: 20px 100px;
+  /* background-image: url(../public/contact_bg.avif); */
+  background-color: var(--grey);
+  color: var(--brown);
+}
+
+.mail-card {
+  display: flex;
+  /* margin: 0 100px; */
+  column-gap: 8px;
+  position: relative;
+}
+
+.mail-form {
+  flex-grow: 1;
+  padding: 24px;
+}
+
+.mail-form input,
+label {
+  color: var(--brown) !important;
+}
+
+.mail-image-box {
+  width: 50%;
+  position: relative;
+  text-align: center;
+}
+.mail-image-box img {
+  width: 100% !important;
+  height: auto;
+  margin: 0 24px;
+}
+
+@media (max-width: 750px) {
+  .mail-card {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .mail-image-box {
+    width: 100%;
+  }
+  .mail-form {
+    width: 100%;
+  }
+}
+
+.submit-btn {
+  transform: scale(1);
+  transition: transform 1s;
+  background-color: var(--brown) !important;
+  color: var(--grey) !important;
+  float: right;
+}

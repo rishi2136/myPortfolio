@@ -1,12 +1,12 @@
 import "./Skills.css";
 
-const Skill = ({ skill, Text }) => {
+const Skill = ({ skill, logo }) => {
   return (
     <>
       <div className="card skill-card">
         <div className="card-body">
-          <h4 className="card-title text-center">{skill}</h4>
-          <div className="card-text skill-text">{Text}</div>
+          <img src={logo} alt="" />
+          <h4 className="card-title text-center fw-bolder">{skill}</h4>
         </div>
       </div>
     </>

@@ -1,0 +1,11 @@
+.list-group {
+  flex-direction: row;
+  background-color: transparent;
+}
+.list-group-item {
+  background-color: transparent;
+}
+
+.list-group-item img {
+  width: 45px;
+}

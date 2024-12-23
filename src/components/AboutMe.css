@@ -1,43 +1,23 @@
-.my-detail {
-  color: greenyellow;
-}
-div:has(.skill-nav) {
-  position: relative;
-}
-.skill-nav {
-  position: absolute;
-  top: 0;
-  width: 100%;
-
-  border-radius: 8px;
-}
-.about-link {
-  color: black;
-  font-weight: 400px;
-  transition: font-weight 0.5s;
-}
-.about-link:hover {
-  font-weight: 600;
-  color: black;
+.about-section {
+  background-color: rgb(183, 91, 72);
+  margin: 0;
 }
 
-.about-link:active {
-  color: black;
+.about-section h1 {
+  color: var(--grey);
 }
 
-/* scrollspy part */
-.nav-box {
-  height: 350px;
-  width: auto;
+.detail-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
-.skill-scrollbar::-webkit-scrollbar {
-  width: 10px;
-}
-.skill-scrollbar::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
-  border-radius: 10px;
-}
-.skill-scrollbar::-webkit-scrollbar-thumb {
-  background: white;
+.detail-wrapper .card {
+  background-color: var(--brown);
+  color: var(--grey);
+  text-align: center;
+  box-shadow: 4px 4px 0 2px var(--grey);
+  border: 2px solid var(--grey);
 }

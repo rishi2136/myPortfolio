@@ -1,0 +1,17 @@
+.contact-bar {
+  background-color: var(--brown);
+  padding: 54px 0;
+  display: flex;
+  justify-content: center;
+  border: 1px solid var(--grey);
+}
+
+.contact-bar ul {
+  width: 80%;
+  flex-wrap: wrap;
+}
+
+.contact-bar ul li {
+  flex-grow: 1;
+  font-size: 20px;
+}
