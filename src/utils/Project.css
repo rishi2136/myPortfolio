@@ -35,6 +35,8 @@
   height: auto;
   margin: auto 4px;
   /* border-radius: 16px; */
+  border: 10px solid;
+  box-shadow: 4px 8px black;
 }
 
 .cover {
@@ -63,6 +65,11 @@
   .project-img {
     height: auto;
   }
+}
+
+.desp-list {
+  margin: 20px;
+  box-sizing: border-box;
 }
 ul:has(.skill-bullet) {
   display: flex;

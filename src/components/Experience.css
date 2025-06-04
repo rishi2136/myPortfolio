@@ -12,6 +12,10 @@
   padding: 8px;
   height: 270px;
 }
+.comp-link span {
+  color: #9a9ad0 !important;
+}
+
 .ex-wrapper {
   display: flex;
   justify-content: space-evenly;

@@ -2,7 +2,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className=" text-center footer border-top border-light">
+    <div className=" text-center footer border-top border-light flex items-center">
       <b>Contacts: &nbsp;</b>
       <a
         href="https://www.linkedin.com/in/rishi-agrahari-0b1965274/"

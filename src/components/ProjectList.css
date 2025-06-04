@@ -28,4 +28,5 @@
 .see-more:hover {
   scale: 1.1;
   border: 2px solid var(--grey);
+  color: var(--grey) !important;
 }

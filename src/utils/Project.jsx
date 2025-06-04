@@ -1,10 +1,12 @@
+import { easeInOut } from "motion";
 import "./Project.css";
+import { motion } from "motion/react";
 
 const Project = ({ details, pos = false }) => {
   return (
     <div className="parent col-10 mx-auto">
       <div
-        className={`card project-card my-5  ${
+        className={`card project-card   ${
           pos ? "flex-row-reverse" : "flex-row"
         }`}
       >
@@ -26,14 +28,31 @@ const Project = ({ details, pos = false }) => {
           </div>
         </div>
 
-        <ul style={{ listStyleType: "none" }} className="col-lg-6 col-12">
+        <motion.ul
+          initial={{
+            translateX: pos ? -400 : 400,
+            opacity: 0.6,
+          }}
+          whileInView={{
+            translateX: 0,
+            opacity: 1,
+          }}
+          transition={{
+            duration: 1.2,
+            delay: 0.5,
+            ease: "easeInOut",
+          }}
+          viewport={{ once: true }}
+          style={{ listStyleType: "none" }}
+          className="col-lg-6 col-12  desp-list"
+        >
           <h3 className="project-title">{details.title}</h3>
           {details.description.map((text, i) => (
             <li className="skill-bullet" key={i}>
               {text}
             </li>
           ))}
-        </ul>
+        </motion.ul>
       </div>
     </div>
   );

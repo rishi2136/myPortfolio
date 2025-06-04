@@ -15,3 +15,11 @@
   flex-grow: 1;
   font-size: 20px;
 }
+
+#social-link i {
+  transition: scale 0.5s ease-in-out;
+}
+
+#social-link li:hover i {
+  scale: 1.5 !important;
+}

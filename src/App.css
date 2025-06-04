@@ -13,6 +13,7 @@
 body {
   overscroll-behavior: contain;
   background-color: var(--gray);
+  overflow-x: hidden !important;
 }
 body a {
   text-decoration: none !important;
