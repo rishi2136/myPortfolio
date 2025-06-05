@@ -19,7 +19,7 @@ const ContectMe = () => {
           action={`mailto:rishiagrahari36@gmail.com?subject=${subject}`}
           className="flex-grow mx-auto text-dark fw-bolder mail-form"
           method="post"
-          autoComplete="off"
+          autoComplete
           onSubmit={handleSubmit}
         >
           <div className="form-floating mb-3">
