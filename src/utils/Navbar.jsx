@@ -28,11 +28,11 @@ export const Navbar = () => {
           About
         </a>
       </li> */}
-      {/* <li className="nav-item">
+      <li className="nav-item">
         <a className="nav-link checkpoint" href="#contact">
           Contact
         </a>
-      </li> */}
+      </li>
     </ul>
   );
 };
