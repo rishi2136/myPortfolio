@@ -1,4 +1,3 @@
-import { easeInOut } from "motion";
 import "./Project.css";
 import { motion } from "motion/react";
 

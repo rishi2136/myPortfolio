@@ -14,48 +14,70 @@
 }
 .skill-img-box {
   position: relative;
-  /* display: inline-block; */
   height: inherit;
   display: flex;
   align-items: center;
+  overflow: hidden; /* Clip overflow for zoom effect */
 }
 
 .project-img-box {
-  height: auto;
   position: relative;
+  width: 100%;
+  overflow: hidden;
 }
+
 .project-title {
   margin: 12px;
   display: flex;
   align-items: center;
   font-weight: 700;
 }
+
 .project-img {
   width: 100%;
   height: auto;
-  margin: auto 4px;
-  /* border-radius: 16px; */
+  display: block;
   border: 10px solid;
   box-shadow: 4px 8px black;
+  transition: transform 0.6s ease; /* Smooth zoom transition */
 }
 
 .cover {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.516) !important;
+  height: 100%;
   position: absolute;
   top: 0;
-  left: 4px;
+  left: 0; /* Fix left offset for centering */
+  background: rgba(0, 0, 0, 0.6);
   opacity: 0;
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fff;
   font-size: 1.5rem;
-  transition: opacity 0.5s;
-  /* border-radius: 16px; */
+  transition: opacity 0.4s ease;
+  backdrop-filter: blur(2px); /* Optional blur for a modern effect */
 }
-.card:hover .cover {
+
+.project-img-box:hover .project-img {
+  transform: scale(1.1) rotate(-1deg); /* Zoom and slight rotation */
+}
+
+.project-img-box:hover .cover {
   opacity: 1;
+}
+
+.cover a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px #000;
+}
+
+.cover a:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
 }
 
 @media (max-width: 992px) {
