@@ -3,7 +3,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 
 import "./App.css";
 // import AboutMe from "./components/AboutMe";
-import ContectMe from "./components/ContectMe";
+// import ContectMe from "./components/ContectMe";
 
 import Footer from "./utils/Footer";
 import Hero from "./components/Hero";
