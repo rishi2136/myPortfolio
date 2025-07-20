@@ -43,7 +43,7 @@ function App() {
         <ProjectList />
         {/* <AboutMe /> */}
         <ContactBar />
-        <ContectMe />
+        {/* <ContectMe /> */}
         <Footer />
       </div>
     </>
